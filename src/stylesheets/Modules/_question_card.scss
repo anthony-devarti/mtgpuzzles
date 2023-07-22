@@ -1,0 +1,20 @@
+.question-card {
+    margin: 1rem;
+    height: 80vh;
+    display: flex;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-footer{
+        height: 8rem;
+    }
+
+    .answer-select{
+        margin: 1rem;
+        width: 80%;
+    }
+}
