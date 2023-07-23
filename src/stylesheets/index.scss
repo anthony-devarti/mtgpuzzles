@@ -1,10 +1,12 @@
 @import './variables';
 
 //pages
+@import './Pages/create';
 
 //modules
 @import './Modules/question_card';
 @import './Modules/navbar';
+@import './Modules/question-form';
 
 .app {
     margin: 0;

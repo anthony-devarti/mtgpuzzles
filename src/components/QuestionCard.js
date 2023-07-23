@@ -33,10 +33,12 @@ export default function QuestionCard({ question }) {
         }
     }
 
+    console.log(question)
+
     return (
         <Card className='question-card'>
             <Card.Header>
-                Question {question.questionNumber} of Y
+                Question X of Y
             </Card.Header>
             <Card.Body>
                 <div>
@@ -72,11 +74,10 @@ export default function QuestionCard({ question }) {
                 {selected && (
                     <Row>
                         <Col>
-                            <Button block variant="success" onClick={handleSubmit}>Submit</Button>
+                            <Button block variant="success" disabled={correct} onClick={handleSubmit}>Submit</Button>
                         </Col>
                     </Row>
                 )}
-                {correct && <Button>Next Question</Button>}
             </Card.Footer>
         </Card>
     )

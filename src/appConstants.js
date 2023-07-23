@@ -14,3 +14,8 @@ export const example = {
     C: 'C',
     D: 'D'
 }
+
+export const exampleQuiz =[
+    example,
+    example
+]

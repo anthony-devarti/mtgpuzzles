@@ -1,0 +1,22 @@
+.create {
+    display: flex;
+    flex-direction: column;
+
+    .creation-dashboard {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .dash-head{
+            display: flex;
+            flex-direction: column;
+            width: 40vw;
+            align-items: center;
+
+            .bigbtn{
+                width: 100%;
+            }
+        }
+    }
+}

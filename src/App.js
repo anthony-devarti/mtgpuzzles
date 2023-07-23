@@ -8,6 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import Tutorial from './routes/Tutorial';
+import Create from './routes/Create';
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
                 <Nav.Link>
                   <Link to="/tutorial">
                     Tutorial
+                  </Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to="/create">
+                    Create
                   </Link>
                 </Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
@@ -43,6 +49,7 @@ function App() {
 
         <Routes>
           <Route path="/tutorial" element={<Tutorial />} />
+          <Route path="/create" element={<Create />} />
         </Routes>
       </Router>
     </div>

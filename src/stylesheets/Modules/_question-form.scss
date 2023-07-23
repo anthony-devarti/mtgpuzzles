@@ -1,0 +1,8 @@
+.question-form{
+    display: flex;
+    flex-direction: column;
+
+    .question-form > * {
+        margin: 1rem;
+    }
+}

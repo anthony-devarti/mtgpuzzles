@@ -1,3 +1,23 @@
+.create {
+  display: flex;
+  flex-direction: column;
+}
+.create .creation-dashboard {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.create .creation-dashboard .dash-head {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+}
+.create .creation-dashboard .dash-head .bigbtn {
+  width: 100%;
+}
+
 .question-card {
   margin: 1rem;
   height: 80vh;
@@ -19,6 +39,14 @@
 .navbar .search {
   display: flex;
   flex-direction: row;
+}
+
+.question-form {
+  display: flex;
+  flex-direction: column;
+}
+.question-form .question-form > * {
+  margin: 1rem;
 }
 
 .app {
